@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+// import Box1 from './components/Box1';
+import Brand from './components/Brand';
+// import Branding from './components/Branding';
+// import DropZone from './components/Dropzone';
+import Jsx from './components/Jsx';
+// import Mydropzone from './components/Mydropzone';
+// import Onsite from './components/Onsite';
+// import NavBar from './components/NavBar';
+// import { Star } from './components/Star';
+import UseEffect from './components/UseEffect';
 
 function App() {
+  // let listdata=
+  //   {
+  //   name:"chetan",
+  //   city:"koppal"
+  // }
+
+  // const [removeComp, setremoveComp] = useState(true); 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <NavBar /> */}
+      {/* <Star /> */}
+      {/* <Box1 /> */}
+      {/* <Onsite />  */}
+      {/* <UseEffect /> */}
+      {/* <div>{removeComp && <UseEffect />}</div>
+      <button onClick={()=>setremoveComp(!removeComp)} >unmount component</button> */}
+
+
+      {/* <Jsx  listdata={listdata} /> */}
+
+      {/* <Branding /> */}
+      <Brand />
+      {/* <DropZone /> */}
+      {/* <Mydropzone /> */}
+
+
     </div>
   );
 }

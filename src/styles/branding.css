@@ -1,0 +1,45 @@
+.section,.section1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 25%;  
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.main .main_brand{
+    text-align: center;
+    align-items: center;
+    /* padding: 15px 70px; */
+    margin: 10px 0 10px 0;
+    /* width: 50%; */
+}
+
+.main .main_brand .logo_button{
+    border: none;
+    padding: 5px 10px 7px 10px;
+    border-radius: 20px;
+    background: #000000;
+    color: white;   
+}
+
+.main .main_drag{
+    border: 3px dashed gray;
+    margin: 30px;
+    padding: 50px 40px;
+    background-color: #F7F9FB;
+    border-radius: 30px;
+}
+
+.main .drag{
+    background-color: #F7F9FB;
+
+}
